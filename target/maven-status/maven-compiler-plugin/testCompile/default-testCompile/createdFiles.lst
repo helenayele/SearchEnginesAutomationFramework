@@ -1,0 +1,7 @@
+pages\BasePage.class
+pages\GoogleHomePage.class
+pages\SearchResultPage.class
+pages\BingSearchResultPage.class
+tests\SearchEnginesTests.class
+tests\TestBase.class
+pages\BingHomePage.class
