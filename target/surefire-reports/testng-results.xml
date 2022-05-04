@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testSuite" duration-ms="110640" started-at="2022-05-02T12:46:18 EAT" finished-at="2022-05-02T12:48:09 EAT">
+    <groups>
+    </groups>
+    <test name="smoke" duration-ms="110640" started-at="2022-05-02T12:46:18 EAT" finished-at="2022-05-02T12:48:09 EAT">
+      <class name="tests.SearchEnginesTests">
+        <test-method status="PASS" signature="initSuite()[pri:0, instance:tests.SearchEnginesTests@d44fc21]" name="initSuite" is-config="true" duration-ms="12" started-at="2022-05-02T12:46:18 EAT" finished-at="2022-05-02T12:46:18 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSuite -->
+        <test-method status="PASS" signature="initDriver()[pri:0, instance:tests.SearchEnginesTests@d44fc21]" name="initDriver" is-config="true" duration-ms="13520" started-at="2022-05-02T12:46:18 EAT" finished-at="2022-05-02T12:46:32 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.SearchEnginesTests@d44fc21]" name="initPages" is-config="true" duration-ms="70" started-at="2022-05-02T12:46:32 EAT" finished-at="2022-05-02T12:46:32 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method status="PASS" signature="googleSearchTest()[pri:1, instance:tests.SearchEnginesTests@d44fc21]" name="googleSearchTest" duration-ms="66851" started-at="2022-05-02T12:46:32 EAT" finished-at="2022-05-02T12:47:39 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTest -->
+        <test-method status="PASS" signature="blingSearchTest()[pri:2, instance:tests.SearchEnginesTests@d44fc21]" name="blingSearchTest" duration-ms="29324" started-at="2022-05-02T12:47:39 EAT" finished-at="2022-05-02T12:48:08 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blingSearchTest -->
+        <test-method status="PASS" signature="listPopularSites()[pri:3, instance:tests.SearchEnginesTests@d44fc21]" name="listPopularSites" duration-ms="1" started-at="2022-05-02T12:48:08 EAT" finished-at="2022-05-02T12:48:08 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listPopularSites -->
+        <test-method status="PASS" signature="killDriver()[pri:0, instance:tests.SearchEnginesTests@d44fc21]" name="killDriver" is-config="true" duration-ms="824" started-at="2022-05-02T12:48:08 EAT" finished-at="2022-05-02T12:48:09 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killDriver -->
+      </class> <!-- tests.SearchEnginesTests -->
+    </test> <!-- smoke -->
+  </suite> <!-- testSuite -->
+</testng-results>
